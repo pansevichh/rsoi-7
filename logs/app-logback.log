@@ -1,0 +1,190 @@
+2023-05-04 17:49:50,018 INFO [main] org.springframework.boot.StartupInfoLogger: Starting MainApplication using Java 17.0.1 with PID 9804 (D:\Никита БУГОР\3 курс 6 сем\РСОИ\lab-1\application\build\classes\java\main started by Asus in D:\Никита БУГОР\3 курс 6 сем\РСОИ\lab-1)
+2023-05-04 17:49:50,025 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.0.4, Spring v6.0.6
+2023-05-04 17:49:50,028 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-05-04 17:49:50,907 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-04 17:49:50,990 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 69 ms. Found 3 JPA repository interfaces.
+2023-05-04 17:49:51,662 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2023-05-04 17:49:51,674 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-04 17:49:51,676 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-05-04 17:49:51,676 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-05-04 17:49:51,804 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-05-04 17:49:51,805 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1701 ms
+2023-05-04 17:49:52,035 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-04 17:49:52,111 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-04 17:49:52,498 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-05-04 17:49:52,959 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a2a7492
+2023-05-04 17:49:52,962 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-05-04 17:49:52,988 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-04 17:49:52,992 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-04 17:49:54,176 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-04 17:49:54,190 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 17:49:54,687 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-04 17:49:55,088 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-8080"]
+2023-05-04 17:49:55,095 WARN [main] org.springframework.context.support.AbstractApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-05-04 17:49:55,097 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 17:49:55,099 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-05-04 17:49:55,110 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-05-04 17:49:55,112 INFO [main] org.apache.juli.logging.DirectJDKLog: Pausing ProtocolHandler ["http-nio-8080"]
+2023-05-04 17:49:55,112 INFO [main] org.apache.juli.logging.DirectJDKLog: Stopping service [Tomcat]
+2023-05-04 17:49:55,118 INFO [main] org.apache.juli.logging.DirectJDKLog: Stopping ProtocolHandler ["http-nio-8080"]
+2023-05-04 17:49:55,119 INFO [main] org.apache.juli.logging.DirectJDKLog: Destroying ProtocolHandler ["http-nio-8080"]
+2023-05-04 17:49:55,129 INFO [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger: 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-05-04 17:49:55,157 ERROR [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter: 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-05-04 17:50:33,877 INFO [main] org.springframework.boot.StartupInfoLogger: Starting MainApplication using Java 17.0.1 with PID 14044 (D:\Никита БУГОР\3 курс 6 сем\РСОИ\lab-1\application\build\classes\java\main started by Asus in D:\Никита БУГОР\3 курс 6 сем\РСОИ\lab-1)
+2023-05-04 17:50:33,880 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.0.4, Spring v6.0.6
+2023-05-04 17:50:33,881 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-05-04 17:50:34,665 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-04 17:50:34,735 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 59 ms. Found 3 JPA repository interfaces.
+2023-05-04 17:50:35,340 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2023-05-04 17:50:35,351 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-04 17:50:35,352 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-05-04 17:50:35,353 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-05-04 17:50:35,463 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-05-04 17:50:35,463 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1529 ms
+2023-05-04 17:50:35,655 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-04 17:50:35,709 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-04 17:50:36,020 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-05-04 17:50:36,359 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29147c12
+2023-05-04 17:50:36,362 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-05-04 17:50:36,386 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-04 17:50:36,388 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-04 17:50:37,459 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-04 17:50:37,470 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 17:50:37,973 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-04 17:50:38,321 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-8080"]
+2023-05-04 17:50:38,327 WARN [main] org.springframework.context.support.AbstractApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-05-04 17:50:38,329 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 17:50:38,332 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-05-04 17:50:38,341 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-05-04 17:50:38,345 INFO [main] org.apache.juli.logging.DirectJDKLog: Pausing ProtocolHandler ["http-nio-8080"]
+2023-05-04 17:50:38,345 INFO [main] org.apache.juli.logging.DirectJDKLog: Stopping service [Tomcat]
+2023-05-04 17:50:38,351 INFO [main] org.apache.juli.logging.DirectJDKLog: Stopping ProtocolHandler ["http-nio-8080"]
+2023-05-04 17:50:38,351 INFO [main] org.apache.juli.logging.DirectJDKLog: Destroying ProtocolHandler ["http-nio-8080"]
+2023-05-04 17:50:38,361 INFO [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger: 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-05-04 17:50:38,379 ERROR [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter: 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-05-04 17:51:25,296 INFO [main] org.springframework.boot.StartupInfoLogger: Starting MainApplication using Java 17.0.1 with PID 21280 (D:\Никита БУГОР\3 курс 6 сем\РСОИ\lab-1\application\build\classes\java\main started by Asus in D:\Никита БУГОР\3 курс 6 сем\РСОИ\lab-1)
+2023-05-04 17:51:25,299 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.0.4, Spring v6.0.6
+2023-05-04 17:51:25,299 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-05-04 17:51:26,037 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-04 17:51:26,104 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 59 ms. Found 3 JPA repository interfaces.
+2023-05-04 17:51:26,693 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8082 (http)
+2023-05-04 17:51:26,704 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8082"]
+2023-05-04 17:51:26,706 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-05-04 17:51:26,707 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-05-04 17:51:26,818 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-05-04 17:51:26,819 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1465 ms
+2023-05-04 17:51:27,001 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-04 17:51:27,052 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-04 17:51:27,353 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-05-04 17:51:27,710 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ce655b9
+2023-05-04 17:51:27,713 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-05-04 17:51:27,732 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-04 17:51:27,735 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-04 17:51:28,791 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-04 17:51:28,801 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 17:51:29,276 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-04 17:51:29,676 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-8082"]
+2023-05-04 17:51:29,705 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8082 (http) with context path ''
+2023-05-04 17:51:29,714 INFO [main] org.springframework.boot.StartupInfoLogger: Started MainApplication in 4.88 seconds (process running for 5.825)
+2023-05-04 17:51:46,783 INFO [main] com.github.rsoi.service.ProductService: Generated map with ratings : {2023-03-27=[4, 3, 4], 2023-03-18=[5, 3, 4]}
+2023-05-04 17:51:46,798 INFO [main] com.github.rsoi.service.ProductService: Generated map with product minimal prices : {2023-04-12=[400.0, 500.0]}
+2023-05-04 17:51:46,815 INFO [main] com.github.rsoi.service.ProductService: Generated map with ratings : {2023-03-27=[4], 2021-09-23=[3], 2023-04-06=[3, 4], 2023-03-18=[2, 2]}
+2023-05-04 17:51:46,843 INFO [main] com.github.rsoi.service.ProductService: Generated map with product minimal prices : {2023-04-12=[500.0, 650.0]}
+2023-05-04 17:51:46,861 INFO [main] com.github.rsoi.service.ProductService: Generated map with ratings : {2022-12-13=[4], 2022-12-12=[4], 2023-04-11=[5, 5], 2023-03-19=[4, 5]}
+2023-05-04 17:51:46,871 INFO [main] com.github.rsoi.service.ProductService: Generated map with product minimal prices : {2023-04-12=[600.0, 500.0]}
+2023-05-04 17:51:46,881 INFO [main] com.github.rsoi.service.ProductService: Generated map with ratings : {2022-12-12=[5], 2023-04-11=[3, 2, 1], 2023-03-19=[4, 5]}
+2023-05-04 17:51:46,893 INFO [main] com.github.rsoi.service.ProductService: Generated map with product minimal prices : {2023-04-12=[550.0, 780.0]}
+2023-05-04 17:51:46,903 INFO [main] com.github.rsoi.service.ProductService: Generated map with ratings : {2020-12-12=[5], 2023-04-11=[5, 5, 3, 4], 2020-11-23=[5], 2023-03-19=[5]}
+2023-05-04 17:51:46,912 INFO [main] com.github.rsoi.service.ProductService: Generated map with product minimal prices : {2023-04-12=[760.0, 1000.0]}
+2023-05-04 17:51:46,923 INFO [main] com.github.rsoi.service.ProductService: Generated map with ratings : {2021-12-13=[5], 2023-04-12=[5], 2023-04-11=[5], 2023-03-25=[5, 3, 3]}
+2023-05-04 17:51:46,934 INFO [main] com.github.rsoi.service.ProductService: Generated map with product minimal prices : {2023-04-12=[310.0, 1300.0]}
+2023-05-04 17:51:46,944 INFO [main] com.github.rsoi.service.ProductService: Generated map with ratings : {2023-04-12=[5, 4, 4], 2023-03-25=[3, 3, 3]}
+2023-05-04 17:51:46,952 INFO [main] com.github.rsoi.service.ProductService: Generated map with product minimal prices : {2023-04-12=[130.0, 450.0]}
+2023-05-04 17:51:46,961 INFO [main] com.github.rsoi.service.ProductService: Generated map with ratings : {2023-04-12=[3, 2, 5], 2023-03-25=[3, 4, 2]}
+2023-05-04 17:51:46,968 INFO [main] com.github.rsoi.service.ProductService: Generated map with product minimal prices : {2023-04-12=[120.0, 300.0]}
+2023-05-04 17:51:46,976 INFO [main] com.github.rsoi.service.ProductService: Generated map with ratings : {2022-12-30=[4], 2023-04-12=[3], 2023-03-25=[5, 4, 5]}
+2023-05-04 17:51:46,983 INFO [main] com.github.rsoi.service.ProductService: Generated map with product minimal prices : {2023-04-12=[150.0, 2000.0]}
+2023-05-04 17:51:46,993 INFO [main] com.github.rsoi.service.ProductService: Generated map with ratings : {2021-10-12=[4], 2023-04-12=[5]}
+2023-05-04 17:51:47,002 INFO [main] com.github.rsoi.service.ProductService: Generated map with product minimal prices : {2023-04-12=[710.0, 500.0]}
+2023-05-04 17:51:47,012 INFO [main] com.github.rsoi.service.ProductService: Generated map with ratings : {2022-07-12=[3]}
+2023-05-04 17:51:47,022 INFO [main] com.github.rsoi.service.ProductService: Generated map with product minimal prices : {2022-10-12=[100.0], 2022-07-12=[110.0], 2023-04-12=[90.0, 400.0]}
+2023-05-04 17:51:47,038 INFO [main] com.github.rsoi.service.ProductService: Generated map with ratings : {2022-12-13=[3]}
+2023-05-04 17:51:47,046 INFO [main] com.github.rsoi.service.ProductService: Generated map with product minimal prices : {2022-12-13=[300.0], 2023-04-12=[290.0], 2023-04-18=[1000.0]}
+2023-05-04 17:51:47,055 INFO [main] com.github.rsoi.service.ProductService: Generated map with ratings : {2023-12-12=[4]}
+2023-05-04 17:51:47,064 INFO [main] com.github.rsoi.service.ProductService: Generated map with product minimal prices : {2023-12-12=[400.0]}
+2023-05-04 17:51:47,070 INFO [main] com.github.rsoi.service.ProductService: Got list of products: [com.github.rsoi.domain.product.Product@17e4beda, com.github.rsoi.domain.product.Product@288915a1, com.github.rsoi.domain.product.Product@b332eda, com.github.rsoi.domain.product.Product@57a0aeb8, com.github.rsoi.domain.product.Product@406d922, com.github.rsoi.domain.product.Product@23adbd6b, com.github.rsoi.domain.product.Product@629dfb5a, com.github.rsoi.domain.product.Product@be9bf2e, com.github.rsoi.domain.product.Product@4b3eaf39, com.github.rsoi.domain.product.Product@318a81a0, com.github.rsoi.domain.product.Product@44181746, com.github.rsoi.domain.product.Product@36a8ebca, com.github.rsoi.domain.product.Product@5c8e7687]
+2023-05-04 17:51:47,084 INFO [main] com.github.rsoi.service.ProductService: Generated map with ratings : {2023-03-27=[4, 3, 4], 2023-03-18=[5, 3, 4]}
+2023-05-04 17:51:47,093 INFO [main] com.github.rsoi.service.ProductService: Generated map with ratings : {2023-03-27=[4], 2021-09-23=[3], 2023-04-06=[3, 4], 2023-03-18=[2, 2]}
+2023-05-04 17:51:47,102 INFO [main] com.github.rsoi.service.ProductService: Generated map with ratings : {2022-12-13=[4], 2022-12-12=[4], 2023-04-11=[5, 5], 2023-03-19=[4, 5]}
+2023-05-04 17:51:47,110 INFO [main] com.github.rsoi.service.ProductService: Generated map with ratings : {2022-12-12=[5], 2023-04-11=[3, 2, 1], 2023-03-19=[4, 5]}
+2023-05-04 17:51:47,119 INFO [main] com.github.rsoi.service.ProductService: Generated map with ratings : {2020-12-12=[5], 2023-04-11=[5, 5, 3, 4], 2020-11-23=[5], 2023-03-19=[5]}
+2023-05-04 17:51:47,127 INFO [main] com.github.rsoi.service.ProductService: Generated map with ratings : {2021-12-13=[5], 2023-04-12=[5], 2023-04-11=[5], 2023-03-25=[5, 3, 3]}
+2023-05-04 17:51:47,135 INFO [main] com.github.rsoi.service.ProductService: Generated map with ratings : {2023-04-12=[5, 4, 4], 2023-03-25=[3, 3, 3]}
+2023-05-04 17:51:47,141 INFO [main] com.github.rsoi.service.ProductService: Generated map with ratings : {2023-04-12=[3, 2, 5], 2023-03-25=[3, 4, 2]}
+2023-05-04 17:51:47,147 INFO [main] com.github.rsoi.service.ProductService: Generated map with ratings : {2022-12-30=[4], 2023-04-12=[3], 2023-03-25=[5, 4, 5]}
+2023-05-04 17:51:47,154 INFO [main] com.github.rsoi.service.ProductService: Generated map with ratings : {2021-10-12=[4], 2023-04-12=[5]}
+2023-05-04 17:51:47,160 INFO [main] com.github.rsoi.service.ProductService: Generated map with ratings : {2022-07-12=[3]}
+2023-05-04 17:51:47,166 INFO [main] com.github.rsoi.service.ProductService: Generated map with ratings : {2022-12-13=[3]}
+2023-05-04 17:51:47,172 INFO [main] com.github.rsoi.service.ProductService: Generated map with ratings : {2023-12-12=[4]}
+2023-05-04 17:52:06,758 INFO [main] com.github.rsoi.service.ProductService: Product before updating : com.github.rsoi.domain.product.Product@10264cb0
+2023-05-04 17:52:06,799 INFO [main] com.github.rsoi.service.ProductService: Product after updating (updated name) : com.github.rsoi.domain.product.Product@10264cb0
+2023-05-04 17:53:15,593 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 17:53:15,595 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-05-04 17:53:15,605 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-05-04 18:26:40,475 INFO [main] org.springframework.boot.StartupInfoLogger: Starting MainApplication using Java 17.0.1 with PID 21556 (D:\Никита БУГОР\3 курс 6 сем\РСОИ\lab-1\application\build\classes\java\main started by Asus in D:\Никита БУГОР\3 курс 6 сем\РСОИ\lab-1)
+2023-05-04 18:26:40,478 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.0.4, Spring v6.0.6
+2023-05-04 18:26:40,480 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-05-04 18:26:41,385 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-04 18:26:41,465 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 68 ms. Found 3 JPA repository interfaces.
+2023-05-04 18:26:42,281 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8082 (http)
+2023-05-04 18:26:42,301 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8082"]
+2023-05-04 18:26:42,303 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-05-04 18:26:42,303 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-05-04 18:26:42,527 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-05-04 18:26:42,528 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1985 ms
+2023-05-04 18:26:42,735 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-04 18:26:42,816 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-04 18:26:43,318 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-05-04 18:26:43,812 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a2a7492
+2023-05-04 18:26:43,814 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-05-04 18:26:43,841 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-04 18:26:43,844 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-04 18:26:45,138 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-04 18:26:45,149 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 18:26:45,898 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-04 18:26:46,296 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-8082"]
+2023-05-04 18:26:46,324 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8082 (http) with context path ''
+2023-05-04 18:26:46,336 INFO [main] org.springframework.boot.StartupInfoLogger: Started MainApplication in 6.395 seconds (process running for 7.51)
+2023-05-04 18:52:06,519 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 18:52:06,551 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-05-04 18:52:06,592 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
